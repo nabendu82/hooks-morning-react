@@ -1,10 +1,12 @@
 import './App.css';
-import HookCounter4 from './components/HookCounter4';
+import ClassMouse from './components/ClassMouse';
+import HookMouse from './components/HookMouse';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter4 />
+      <ClassMouse />
+      <HookMouse />
     </div>
   );
 }
